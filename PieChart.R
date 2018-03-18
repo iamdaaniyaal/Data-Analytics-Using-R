@@ -1,6 +1,0 @@
-x <- c(21,62,10,53)
-labels <- c("London","New York", "Singpore","Mumbai")
-color <- c("Green","Orange","Blue","pink")
-png(file = "pie_chart.png")
-pie(x,labels,main="City Pie Chart",col=rainbow(length(x)))
-dev.off()
